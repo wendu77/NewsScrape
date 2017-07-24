@@ -1,0 +1,34 @@
+{
+  "name": "chinwendu_opara",
+  "version": "1.0.0",
+  "description": "News Scraper App that allows viewers to comment",
+  "main": "app.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wendu77/NewsScrape.git"
+  },
+  "keywords": [
+    "mongo",
+    "newsscraper",
+    "articles",
+    "comments"
+  ],
+  "author": "chinwendu_opara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wendu77/NewsScrape/issues"
+  },
+  "homepage": "https://github.com/wendu77/NewsScrape#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.4",
+    "morgan": "^1.8.2",
+    "request": "^2.81.0"
+  }
+}

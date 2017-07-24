@@ -1,0 +1,38 @@
+body {
+/*  background-color: #F2F6D0;
+*/   margin: 0;
+   background-color: lightsteelblue;
+/*   background-image: url('http://hdw.datawallpaper.com/architecture/vintage-new-york-city-299988.jpg');
+*/   background-position: center;
+   background-size: cover;
+   -webkit-background-blend-mode: overlay;
+   -moz-background-blend-mode: overlay;
+   background-blend-mode: overlay; 
+ }
+
+#wrapper{
+  width: 960px;
+  margin: 0 auto;
+  padding-top:5%;
+}
+
+.col-md-4{
+  height: 250px;
+  margin-bottom: 100px;
+}
+
+.title{
+  text-align: center;
+}
+
+#articles{
+  /*float: left;*/
+  width:70%;
+  display: inline-block;
+  overflow: auto;
+}
+
+#notes{
+  width: 30%;
+  float: right;
+}
