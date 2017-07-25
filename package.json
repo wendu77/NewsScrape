@@ -1,34 +1,42 @@
 {
-  "name": "chinwendu_opara",
+  "name": "allthenewsthatsfittoscrape",
   "version": "1.0.0",
-  "description": "News Scraper App that allows viewers to comment",
-  "main": "app.js",
+  "description": "All The News That's Fit To Scrape Web App",
+  "main": "server.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.11.4",
+    "morgan": "^1.8.2",
+    "path": "^0.12.7",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wendu77/NewsScrape.git"
   },
   "keywords": [
-    "mongo",
-    "newsscraper",
+    "web",
+    "scraper",
+    "mongodb",
+    "bootstrap",
     "articles",
-    "comments"
+    "comments",
+    "viewers",
+    "read"
   ],
-  "author": "chinwendu_opara",
+  "author": "Chinwendu Opara",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wendu77/NewsScrape/issues"
   },
-  "homepage": "https://github.com/wendu77/NewsScrape#readme",
-  "dependencies": {
-    "bluebird": "^3.5.0",
-    "body-parser": "^1.17.2",
-    "cheerio": "^1.0.0-rc.2",
-    "express": "^4.15.3",
-    "mongoose": "^4.11.4",
-    "morgan": "^1.8.2",
-    "request": "^2.81.0"
-  }
+  "homepage": "https://github.com/wendu77/NewsScrape#readme"
 }

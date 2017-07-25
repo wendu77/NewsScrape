@@ -1,0 +1,38 @@
+<div class="row">
+    <div class="col-md-2"></div>
+    <div id="content" class="col-sm-12 col-md-8">
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-sm-12 col-md-8">
+        <div class="panel">
+            <div class="panel-heading panelBG"><h2 id="title" class="text-center">All The News</h2></div>
+            <div class="panel-body">
+                <img id="image" src="/images/GNNLogo.png" alt="title" class="img-thumbnail center-block hidden">
+                <p id="summary">Good News Network is your ultimate way of filtering all the negative news you see in the media daily.</p>
+				<p id="readArticle" class= "hidden"><a href="" id="article" target="_blank"><button class="btn btnColor">Read Article</button></a></p>
+                <p><button id="getArticles" class="btn btnColor">Read Articles</button></p>
+                <div id="comments">
+               	    <h3 class="text-center">Comments</h3>
+                	<div id="articleComments">
+                	</div>
+                    <h3 class="text-center">Add Comment</h3>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                          <label for="commentText">Comment:</label>
+                          <textarea class="form-control" rows="5" id="commentText"></textarea>
+                    </div>
+                    {{!-- <p><textarea id="commentText" rows="5" placeholder=" Your Comment"></textarea></p> --}}
+                    <button id="addComment" class="btn btnColor btn-xs">Add Comment</button>
+                </div>
+            </div>
+            <div class="panel-footer ">
+            	<div id="navigation">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2"></div>
+</div>

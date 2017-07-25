@@ -1,0 +1,37 @@
+.page-header { 
+	border-bottom:none; 
+}
+
+input:focus {
+    border: #006dcc;
+}
+
+textarea {
+  width: 100%;
+}
+
+.logo {
+	height: 200px;
+}
+
+body {
+	background-color: #000;
+}
+
+.copyright {
+	color: yellow;
+}
+
+.headerTitle {
+	color: yellow;
+}
+
+.btnColor {
+	background-color: yellow;
+	color: #000;
+}
+
+.panelBG {
+  background-color: yellow;
+  border-color: solid 2px pink;
+}
