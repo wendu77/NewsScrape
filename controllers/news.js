@@ -12,7 +12,7 @@ var Promise = require("bluebird");
 mongoose.Promise = Promise;
 
 // Mongodb models
-var Articles = require("../models/articles");
+var Articles = require("../models/Articles");
 var Comments = require("../models/comments");
 
 // Website To Be Scraped
