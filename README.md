@@ -4,6 +4,6 @@ You can think of this application as a <strong>World News Lottery</strong>. You 
 
 (This Application was developed with <strong>MongoDB, Express, Node, Some VanillaJS, Bootstrap</strong>, and <em>many other technologies</em> that you may find in the <em>package.json</em> file!
 
-<strong>LIVE DEMO</strong>: 
+<strong>LIVE DEMO</strong>: https://world-news-lotto.herokuapp.com/
 
 ![worldnewsscraperappgif](https://user-images.githubusercontent.com/24254780/30140131-616e18b0-9340-11e7-8555-f79892ad338c.gif)
