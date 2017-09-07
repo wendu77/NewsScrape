@@ -1,5 +1,6 @@
 // requiring mongoose
 var mongoose = require("mongoose");
+
 // database schema for comments
 var commentsSchema = new mongoose.Schema({
 	articleId: {

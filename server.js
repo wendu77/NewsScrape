@@ -1,10 +1,22 @@
 // Required NPM Packages
-var express = require('express');
-var path = require('path');
+var express    = require('express');
+var path       = require('path');
 var bodyParser = require('body-parser');
-var logger = require('morgan');
-var app = express();
-var mongoose = require('mongoose');
+var logger     = require('morgan');
+var app        = express();
+var mongoose   = require('mongoose');
+var dotenv	   = require('dotenv').config();
+
+
+mongoose.connect(process.env.DB_URL, function(err, res){
+  if (err){
+    console.log('DB CONNECTION FAILED: '+err)
+  }
+  else {
+    console.log('DB CONNECTION SUCCEEDED')
+  }
+})
+
 
 var app = express();
 
@@ -13,7 +25,7 @@ app.use(express.static(__dirname + '/public'));
 var port = process.env.PORT || 3000;
 
 // Database
-require("./config/connection");
+// require("./config/connection");
 
 // Use morgan logging
 app.use(logger("dev"));

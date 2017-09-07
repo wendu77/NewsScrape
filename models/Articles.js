@@ -1,5 +1,6 @@
 // requiring mongoose
 var mongoose = require("mongoose");
+
 // database schema for articles
 var articlesSchema = new mongoose.Schema({
   title: {
