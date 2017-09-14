@@ -1,4 +1,4 @@
-# World-News-Lotto
+# World News Lotto
 
 You can think of this application as a <strong>World News Lottery</strong>. You just keep clicking next, and a <strong>new</strong> <em>news article</em> pops up. What a fun way to stay updated on the latest news, right?! Enjoy!
 
